@@ -28,7 +28,8 @@ public class PhysicsTest {
 
 	@Test
 	public void testForce() {
-		assertEquals (3600,obj.force(m,a));	
+		int ans = m*a;
+		assertEquals (ans,obj.force(m,a));	
 	}
 
 	@Test
